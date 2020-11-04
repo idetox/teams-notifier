@@ -91,6 +91,9 @@
             "./src/Kernel.php"
         ]
     },
+    "symfony/http-client": {
+        "version": "v5.1.8"
+    },
     "symfony/http-client-contracts": {
         "version": "v2.3.1"
     },
@@ -144,8 +147,26 @@
     "symfony/service-contracts": {
         "version": "v2.2.0"
     },
+    "symfony/slack-notifier": {
+        "version": "5.1",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "5.1",
+            "ref": "adaf0c2b191293ed376d13d419e1183c2b2dc10c"
+        }
+    },
     "symfony/string": {
         "version": "v5.1.8"
+    },
+    "symfony/telegram-notifier": {
+        "version": "5.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "5.0",
+            "ref": "5cf5c19e8fdcbf922de680cdf8d65fa7d77758ae"
+        }
     },
     "symfony/var-dumper": {
         "version": "v5.1.8"
